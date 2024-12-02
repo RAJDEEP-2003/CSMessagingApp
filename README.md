@@ -17,7 +17,7 @@ The app prioritizes urgent issues, ensuring that critical customer queries are a
 
 click on this link to see he live working demo 
 
-
+https://drive.google.com/file/d/1rHfXXnJGjmK4Y01e5tgGeIh8YzPQGfiJ/view?usp=sharing
 
 
 ## Features Implemented: 
@@ -41,20 +41,18 @@ click on this link to see he live working demo
 5. Urgency Flagging for Messages: Agents have the ability to search and filter incoming messages and customers to
    streamline the process of addressing inquiries.
 
-
+6.  Real-Time Messaging with WebSockets:Implement WebSockets or similar technology to allow real-time updates for incoming
+    messages, so agents can see new messages without having to refresh the page.
 
 ## Future Scope (Features to Implement)
 
-1. Real-Time Messaging with WebSockets:Implement WebSockets or similar technology to allow real-time updates for incoming messages, so agents can see new messages without having to refresh the page.
+1. Enhanced Customer Information Display: Add functionality to display additional customer details (e.g., external profiles or internal information) in the agent UI,
+  providing more context for personalized  esponses.
    
 
-2. Enhanced Customer Information Display: Add functionality to display additional customer details (e.g., external profiles or internal information) in the agent UI, providing more context for personalized 
-    responses.
-   
+2. Canned Responses for Agents: Implement a feature that allows agents to use pre-configured stock messages (canned responses) for quick replies, improving response time and efficiency.
 
-3. Canned Responses for Agents: Implement a feature that allows agents to use pre-configured stock messages (canned responses) for quick replies, improving response time and efficiency.
 
-4. Messages related to urgent topics (e.g., loan approval, disbursement) are left to be implemented.
 
 
 ---
@@ -150,12 +148,6 @@ git clone https://github.com/your-username/cs-messaging-web-app.git
 cd cs-messaging-web-app
 
 
-***Divide the code in to frontend and backened part as shown below  for better maintanibilty of the code 
-
-***Note: The folder structure should be exactly the same as shown below  :
-
-Here it is implemented all together as the code was big and can not be implemented in a single folder   
-
 Folder Structure
 
 cs-messaging-web-app/
@@ -168,12 +160,12 @@ cs-messaging-web-app/
 │   │   ├── messageRoute.js
 │   │   ├── importMessages.js
 │   │   └── index.js
-│   ├── node_modules/  <----- Make  sure you install this manually  as is not included in the repository to keep it lightweight 
+│   ├── node_modules/ 
 │   ├── index.js
 │   ├── package-lock.json
 │   └── package.json
 ├── frontend/
-│   ├── node_modules/   <----- Make  sure you install this manually  as is not included in the repository to keep it lightweight 
+│   ├── node_modules/   t 
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
@@ -198,35 +190,13 @@ cs-messaging-web-app/
 
  
 ***Additional Notes****
-Node Modules: The node_modules folder is not included in the repository to keep it lightweight.
-
-Run npm install in both the backend and frontend directories to install the necessary packages.
 
 MongoDB Database: Make sure your MongoDB database is properly set up, and replace the connection
 
 string in the backend configuration if you're using MongoDB Atlas.
 
 
-
-
-
-2. install Backend Dependencies
-    cd backend
-    npm install 
-
-  This will install the necessary packages as defined in the package.json file.
-  Since node_modules are not included in the GitHub repository, this step is required.
-
-3. Install Frontend Dependencies
-    Navigate to the frontend directory and install the required dependencies:
-    cd ../frontend
-    npm install
-
-This will install the necessary packages for the frontend.
-Again, since node_modules are not included in the repository, this step is necessary.
-
-
-4. Configure MongoDB
+## 2. Configure MongoDB
 Make sure MongoDB is running locally or you can configure a MongoDB Atlas database.
  If you are using MongoDB locally, ensure it is running on the default port (27017).
 
@@ -243,7 +213,7 @@ mongoose.connect('YOUR_MONGODB_CONNECTION_STRING', {
 .then(() => console.log("MongoDB connected"))
 .catch(err => console.log(err));
 
-5. Start the Backend Server
+3. Start the Backend Server
 Now, navigate to the backend directory and run the server:
 
 cd ../backend
@@ -251,7 +221,7 @@ cd ../backend
  The backend will run on http://localhost:5000.
 
 
-6. Start the Frontend Server
+4. Start the Frontend Server
 In a separate terminal window, navigate to the frontend directory and run the frontend:
 
 cd ../frontend
