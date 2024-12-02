@@ -256,12 +256,17 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Explanation of Key Sections:
 
 - **Setup Instructions**: These steps guide the user on how to clone the repository, install
-dependencies,configure the database, and run both the frontend and backend servers.
+   dependencies,configure the database, and run both the frontend and backend servers.
+
 - **MongoDB Configuration**: Instructs how to configure MongoDB locally or via MongoDB Atlas.
+
+
 - **Folder Structure**: Helps the user understand where to find the backend and frontend code
-and how they are structured.
+    and how they are structured.
+
 - **Additional Notes**: Mentions the absence of the `node_modules` folder and the need to run
-`npm install` in both directories.
+ `npm install` in both directories.
+
 
 This structure will ensure that anyone who wants to run the project on their machine can follow
 the instructions easily!
