@@ -151,7 +151,7 @@ cd CSMessagingApp
 
 Folder Structure
 
-cs-messaging-web-app/
+CSMessagingApp/
 ├── backend/
 │   ├── config/
 │   │   └── db.js
