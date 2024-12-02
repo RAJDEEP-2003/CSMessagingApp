@@ -1,0 +1,20 @@
+/* App.css */
+
+/* Global styles for the app */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #555555;
+  }
+  
