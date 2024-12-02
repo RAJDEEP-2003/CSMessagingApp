@@ -41,17 +41,16 @@ https://drive.google.com/file/d/1rHfXXnJGjmK4Y01e5tgGeIh8YzPQGfiJ/view?usp=shari
 5. Urgency Flagging for Messages: Agents have the ability to search and filter incoming messages and customers to
    streamline the process of addressing inquiries.
 
-6.  Real-Time Messaging with WebSockets:Implement WebSockets or similar technology to allow real-time updates for incoming
-    messages, so agents can see new messages without having to refresh the page.
 
 ## Future Scope (Features to Implement)
 
 1. Enhanced Customer Information Display: Add functionality to display additional customer details (e.g., external profiles or internal information) in the agent UI,
   providing more context for personalized  esponses.
    
-
 2. Canned Responses for Agents: Implement a feature that allows agents to use pre-configured stock messages (canned responses) for quick replies, improving response time and efficiency.
 
+3.  Real-Time Messaging with WebSockets:Implement WebSockets or similar technology to allow real-time updates for incoming
+    messages, so agents can see new messages without having to refresh the page.
 
 
 
