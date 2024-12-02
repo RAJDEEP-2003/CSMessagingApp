@@ -143,8 +143,7 @@ Set up a connection string for your project.
 First, clone the project from GitHub:
 
 ```bash
-git clone [[https://github.com/your-username/cs-messaging-web-app.git](https://github.com/RAJDEEP-2003/Messageapp.git) ]
-(https://github.com/RAJDEEP-2003/CSMessagingApp.git)
+git clone https://github.com/RAJDEEP-2003/CSMessagingApp.git
 
 cd CSMessagingApp
 
