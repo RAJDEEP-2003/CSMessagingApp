@@ -227,25 +227,19 @@ In a separate terminal window, navigate to the frontend directory and run the fr
 cd ../frontend
 npm start
 
+You will be redricted to the user Query From running on
+http://localhost:3000
 
-Usage
-
-Customer View:
-Open your browser and go to http://localhost:3000 to access the user query form.
 Submit your query via the form, and it will be sent to the backend.
 
-Agent login page:
-open your browser and go to : http://localhost:3000/agent-login 
+To access the Agent login page:
+pen your browser and go to : http://localhost:3000/agent-login
 
 after login in the site will be  redricted to the
-
- Agent Dashboard :
 http://localhost:3000/agent-dashboard
 
 In the dashboard you can  view and respond to customer messages. Agents can filter and prioritize
 messages.
-
-
 
 
 
