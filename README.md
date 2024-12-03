@@ -237,7 +237,10 @@ Submit your query via the form, and it will be sent to the backend.
 Agent login page:
 open your browser and go to : http://localhost:3000/agent-login 
 
-after login in the site will be  redricted to the Agent Dashboard  http://localhost:3000/agent-dashboard
+after login in the site will be  redricted to the
+
+ Agent Dashboard :
+http://localhost:3000/agent-dashboard
 
 In the dashboard you can  view and respond to customer messages. Agents can filter and prioritize
 messages.
