@@ -196,6 +196,11 @@ MongoDB Database: Make sure your MongoDB database is properly set up, and replac
 string in the backend configuration if you're using MongoDB Atlas.
 
 
+const csvFilePath = 'C:/Users/speak/Desktop/GeneralistRails_Project_MessageData.csv';
+
+ Update this path to your current CSV file path
+
+
 ## 2. Configure MongoDB
 Make sure MongoDB is running locally or you can configure a MongoDB Atlas database.
  If you are using MongoDB locally, ensure it is running on the default port (27017).
