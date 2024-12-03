@@ -165,7 +165,7 @@ CSMessagingApp/
 │   ├── package-lock.json
 │   └── package.json
 ├── frontend/
-│   ├── node_modules/   t 
+│   ├── node_modules/   
 │   ├── public/
 │   │   └── index.html
 │   ├── src/
